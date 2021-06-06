@@ -1,1 +1,1 @@
-# fcc-03-portfolio
+A basic portfolio site for FreeCodeCamp's responsive web development curriculum.
