@@ -1,0 +1,54 @@
+:root {
+    --main-white: #f0f0f0;
+    --main-red: #be3144;
+    --main-blue: #45567d;
+    --main-gray: #303841;
+}
+
+/*||Typography*/
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.4rem;
+    color: var(--main-white);
+}
+
+h1 {
+    font-size: 3.5rem;
+}
+
+h2 {
+    font-size: 2rem;
+}
+
+.sub-heading {
+    font-size: 1.5rem;
+    font-weight: lighter;
+}
+
+/*||Sections*/
+
+#navbar {
+    background-color: var(--main-red);
+    position: fixed;
+    width: 100%;
+    margin-top: 0;
+}
+
+#navbar ul {
+    list-style: none;
+}
+
+#navbar a {
+    text-decoration: none;
+    color: var(--main-white);
+}
+
+#welcome-section {
+    background-image: linear-gradient(to right, #3a3d40, #181719);
+    height: 100vh;
+}
+
+#projects {
+    background-color: var(--main-blue);
+}
