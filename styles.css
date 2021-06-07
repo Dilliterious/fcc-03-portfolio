@@ -5,6 +5,9 @@
     --main-gray: #303841;
 }
 
+body {
+    margin: 0;
+}
 /*||Typography*/
 
 body {
@@ -32,7 +35,7 @@ h2 {
     background-color: var(--main-red);
     position: fixed;
     width: 100%;
-    margin-top: 0;
+    top: 0px;
 }
 
 #navbar ul {
