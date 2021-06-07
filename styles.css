@@ -27,6 +27,7 @@ h2 {
 .sub-heading {
     font-size: 1.5rem;
     font-weight: lighter;
+    color: var(--main-red);
 }
 
 /*||Sections*/
@@ -40,6 +41,12 @@ h2 {
 
 #navbar ul {
     list-style: none;
+    float: right;
+}
+
+#navbar li {
+    display: inline;
+    margin-right: 1.5rem;
 }
 
 #navbar a {
@@ -50,6 +57,22 @@ h2 {
 #welcome-section {
     background-image: linear-gradient(to right, #3a3d40, #181719);
     height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#welcome-section div {
+    text-align: center;
+}
+
+#welcome-section h1, p {
+    margin: auto;
+}
+
+.container-row {
+    display: flex;
 }
 
 #projects {
